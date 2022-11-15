@@ -13,14 +13,21 @@ export default function App() {
 <h1>slide 1</h1> 
 
 <container>
-<div> background-image: url("0410.png");</div>
-<div> background-image: url("0410.png");</div>
+<Button className="card"><img src="/src/Xmas_tree.png" width={180} height={180}/>
+</Button>
+<Button className="card"><img src="/src/Snowman.png" width={180} height={180}/>
+</Button>
 </container>
 
-<button-container>
-<Button action="play audio" > </Button>                        
-<Button action="move to next" > </Button>
-</button-container>      
+<container>
+<Button action="play audio" > play audio </Button>
+</container>
+
+  <hr id="line"/>    
+      
+<container>
+<Button action="next" > next </Button>
+</container>   
     </main>
   )
 }

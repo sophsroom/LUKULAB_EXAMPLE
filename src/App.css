@@ -2,14 +2,12 @@ main
 {
   text-align: center;
   vertical-align: center;
-  text-color: darkslategray;
+  text-color: lightblue;
   font-family:  "Georgia", monospace;
   background-color: linen;
   height: 500px;
   width: 500px;
   border-radius: 30px 30px 30px 30px;
-  border: lightblue;
-  
 }
 
 body {
@@ -21,26 +19,20 @@ container {
   display: flex; /* or inline-flex */
 }
 
-button-container {
-  justify-content: space-evenly;
-  display: flex; /* or inline-flex */
-}
-
-div {
-  border: 4px dotted lightblue;
-  height: 150px;
-  width: 150px;
-  background-color: linen;
-}
-
 button {
   background-color: lightblue; /* Green */
   border: none;
+  border-radius: 12px;
   color: linen;
-  padding: 5px 20px;
+  padding: 15px 20px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: bold;
   display: inline-block;
   font-size: 16px;
   font-family:  "Georgia", monospace;
 }
+
+#line { 
+  width: 80%;
+  color: lightblue;
+  }

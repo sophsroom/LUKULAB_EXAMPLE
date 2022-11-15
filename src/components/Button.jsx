@@ -5,5 +5,5 @@ export default function Button(props)
     alert("Button was clicked!");
     }
     return <button className="action" onClick=
-             {handleClick}> {props.action} </button>;
+             {handleClick}> {props.children} </button>;
 }

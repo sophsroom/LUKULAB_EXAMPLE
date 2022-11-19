@@ -1,3 +1,9 @@
+excercise template page for lukulab
+listen to the audio
+click on the righ answer/picture
+final excersise has 12 slides
+
+
 ## Running React on Repl.it
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.

@@ -9,8 +9,8 @@ export default function App() {
 
     <main>
     
-<h3>slide 1/12</h3> 
- 
+<p>slide 1/12</p> 
+<br></br>
 <container style={{ display: 'flex', margin: 20 }}>
   
 <Button onClick={() => setCount(count === 1)} className="card" alt="Left">

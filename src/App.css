@@ -9,11 +9,16 @@ main
   justify-content: center;
   font-size: calc(12px + 2vmin);
   color: lightblue;
-  
+  padding: 20px, 20px;
   width: 600px;
   justify-content: space-evenly;
   font-family:  "Verdana", monospace;
 }
+
+p{
+margin: 20px;
+}
+
 
 
 body {

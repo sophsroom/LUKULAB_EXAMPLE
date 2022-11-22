@@ -1,6 +1,7 @@
 export default function Button(props) 
 {
-    function handleClick(event) {
+    function handleClick(event) { 
+    props.onClick (event)
     console.log("Button was clicked!");
     alert("Button was clicked!");
     }

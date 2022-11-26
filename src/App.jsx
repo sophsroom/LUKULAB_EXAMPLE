@@ -4,19 +4,43 @@ import GridLayout from "react-grid-layout"
 import Button from "./components/Button"
 import Counter from  "./components/Counter.jsx"
 
+
 const tasks = [{
   id: 1, // Used in JSX as a key
-  left: '/src/Xmas_tree.png',
-  right: '/src/Snowman.png',
+  left: '/1_1.jpg',
+  right: '/1_2.jpg',
   correct: "left",
 },
 {
   id: 2, // Used in JSX as a key
-  right: '/src/Xmas_tree.png',
-  left: '/src/Snowman.png',
+  right: '/2_1.jpg',
+  left: '/2_2.jpg',
   correct: "right",
-}            
-             
+},  
+{
+  id: 3, // Used in JSX as a key
+  right: '/3_1.jpg',
+  left: '/3_2.jpg',
+  correct: "right",
+},  
+{
+  id: 4, // Used in JSX as a key
+  right: '/4_1.jpg',
+  left: '/4_2.jpg',
+  correct: "left",
+}, 
+{
+  id: 5, // Used in JSX as a key
+  right: '/5_1.jpg',
+  left: '/5_2.jpg',
+  correct: "right", 
+}, 
+{
+  id: 6, // Used in JSX as a key
+  right: '/6_1.jpg',
+  left: '/6_2.jpg',
+  correct: "left",
+},              
  ];
 
 export default function App() {
@@ -34,7 +58,6 @@ const [slide, setSlide] = React.useState(1);
 </Button>
   
 <Button onClick={() => setCount(count)} className="card" alt="Right">
-
   <img src={tasks[slide -1] .right} width={180} height={180}/>
 </Button>
   

@@ -19,8 +19,6 @@ p{
 margin: 20px;
 }
 
-
-
 body {
 background-image: url("back.png");
 margin: 50px;
@@ -41,10 +39,14 @@ button {
   text-decoration: bold;
   display: inline-block;
   font-size: 16px;
-  font-family:  "Verdana", monospace;
+  font-family:  "Verdana", monospace; 
 }
 
 #line { 
   width: 80%;
   color: black, 12px;
+  }
+
+button:hover { 
+  border: 2px solid darkblue;
   }

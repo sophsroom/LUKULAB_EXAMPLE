@@ -3,19 +3,21 @@ import './App.css'
 import GridLayout from "react-grid-layout"
 import Button from "./components/Button"
 import Counter from  "./components/Counter.jsx"
-
+import Sounds from "./components/Sounds.jsx"
 
 const tasks = [{
   id: 1, // Used in JSX as a key
   left: '/1_1.jpg',
   right: '/1_2.jpg',
   correct: "left",
+  audio: '/mp3/1.mp3'
 },
 {
   id: 2, // Used in JSX as a key
   right: '/2_1.jpg',
   left: '/2_2.jpg',
   correct: "right",
+  audio: '/mp3/2.mp3'
 },  
 {
   id: 3, // Used in JSX as a key
@@ -28,18 +30,21 @@ const tasks = [{
   right: '/4_1.jpg',
   left: '/4_2.jpg',
   correct: "left",
+  audio: '/mp3/4.mp3'
 }, 
 {
   id: 5, // Used in JSX as a key
   right: '/5_1.jpg',
   left: '/5_2.jpg',
   correct: "right", 
+  audio: '/mp3/5.mp3'
 }, 
 {
   id: 6, // Used in JSX as a key
   right: '/6_1.jpg',
   left: '/6_2.jpg',
   correct: "left",
+  audio: '/mp3/6.mp3'
 },              
  ];
 
@@ -66,8 +71,7 @@ const [slide, setSlide] = React.useState(1);
 <Counter count={count}></Counter>
 
 <container>
-  
-  <Button action="play audio" > Play Audio </Button>
+  <Sounds src={tasks[slide -1].audio}/>
 </container>
 
   <hr id="line"/>    
@@ -76,6 +80,8 @@ const [slide, setSlide] = React.useState(1);
 <Button onClick={() => setSlide(slide + 1)} action="next" > Next </Button>
 </container> 
 <br></br> 
+
+
     </main>
     
   )

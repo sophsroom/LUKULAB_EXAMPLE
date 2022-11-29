@@ -32,9 +32,9 @@ container {
 button {
   background-color: lightblue; /* Green */
   border: none;
-  border-radius: 12px;
+  border-radius: 3px;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: bold;
   display: inline-block;
@@ -49,4 +49,5 @@ button {
 
 button:hover { 
   border: 2px solid darkblue;
+  cursor: pointer;
   }

@@ -8,7 +8,7 @@ export default function Sounds(props) {
   return (
     <div className="Play">
       <button className="Btn" onClick={handleClick}>
-        <audio controls>
+        <audio controls key={props.src} >
           <source src={props.src} type="audio/mp3" />
         </audio>
       </button>

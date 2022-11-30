@@ -20,11 +20,11 @@ margin: 20px;
 }
 
 body {
-background-image: url("back.png");
+background-color: lightblue;
 margin: 50px;
 }
 
-container {
+div {
   justify-content: space-evenly;
   display: flex; /* or inline-flex */
 }
